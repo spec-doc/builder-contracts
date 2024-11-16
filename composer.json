@@ -1,0 +1,28 @@
+{
+    "name": "spec-doc/builder-contracts",
+    "type": "library",
+    "description": "A set of builder interfaces for the specificator",
+    "license": "MIT",
+    "keywords": ["specification", "specificator", "contracts", "interfaces"],
+    "homepage": "https://github.com/spec-doc",
+    "support": {
+        "issues": "https://github.com/spec-doc/specificator/issues",
+        "source": "https://github.com/spec-doc/builder-contracts"
+    },
+    "authors": [
+        {
+            "name": "Ivan Mezinov",
+            "email": "ivanmezinov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpecDoc\\Contract\\Builder\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
