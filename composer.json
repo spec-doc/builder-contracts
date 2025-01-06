@@ -16,8 +16,9 @@
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "spec-doc/parser-contracts": "dev-main",
+        "php": ">=7.1"
+    },
+    "require-dev": {
         "spec-doc/document-contracts": "dev-main",
         "spec-doc/specification-contracts": "dev-main"
     },
