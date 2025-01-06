@@ -7,9 +7,19 @@ namespace SpecDoc\Contract\Builder;
 use SpecDoc\Contract\Document\DocumentInterface;
 use SpecDoc\Contract\Document\ElementInterface;
 use SpecDoc\Contract\Exception\BuilderExceptionInterface;
+use SpecDoc\Contract\Specification\SpecificationInterface;
 
 interface BuilderInterface
 {
+    /**
+     * Returns a flag indicating whether the specified specification is supported.
+     *
+     * @param SpecificationInterface $specification
+     *
+     * @return bool
+     */
+    public function supports(SpecificationInterface $specification): bool;
+
     /**
      * Returns the document.
      *
