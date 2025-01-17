@@ -33,16 +33,16 @@ interface BuilderInterface
      *
      * @param list<TokenInterface> $tokens
      *
-     * @return self
+     * @return static
      */
-    public function setTokens(array $tokens): self;
+    public function setTokens(array $tokens): static;
 
     /**
      * Sets the rules for building elements.
      *
      * @param list<BuildRuleInterface> $rules
      *
-     * @return self
+     * @return static
      */
-    public function setRules(array $rules): self;
+    public function setRules(array $rules): static;
 }
