@@ -18,6 +18,11 @@
     "require": {
         "php": ">=7.1"
     },
+    "require-dev": {
+        "spec-doc/parser-contracts": "dev-main",
+        "spec-doc/document-contracts": "dev-main",
+        "spec-doc/rule-contracts": "dev-main"
+    },
     "autoload": {
         "psr-4": {
             "SpecDoc\\Contract\\Builder\\": ""
